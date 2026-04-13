@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+  }
+  body {
+    @apply bg-brandBg text-text font-mono overflow-x-hidden;
+  }
+  ::selection {
+    @apply bg-gold text-brandBg;
+  }
+}
+
+@layer utilities {
+  .text-stroke-gold {
+    -webkit-text-stroke: 1px #C9A84C;
+  }
+  .reveal {
+    @apply opacity-0 translate-y-8 transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)];
+  }
+  .reveal.visible {
+    @apply opacity-100 translate-y-0;
+  }
+}
+
+/* Custom styles that are specific or hard to do in pure Tailwind */
+.wrap {
+  @apply max-w-[960px] mx-auto px-6 pb-32;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: .3; }
+}
+
+.animate-pulse-custom {
+  animation: pulse 2s infinite;
+}
