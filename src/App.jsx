@@ -87,7 +87,7 @@ const App = () => {
             <span className="w-1 h-1 rounded-full bg-green animate-pulse-custom"></span> Available
           </div>
           <div className="flex gap-6 text-[0.6rem] tracking-widest text-muted uppercase">
-            <a href="https://github.com/amrradi144" target="_blank" className="hover:text-gold transition-colors">GITHUB</a>
+            <a href="https://github.com/amrmohamedradi" target="_blank" className="hover:text-gold transition-colors">GITHUB</a>
             <a href="https://linkedin.com/in/amr-mohamed-abdul-radi" target="_blank" className="hover:text-gold transition-colors">LINKEDIN</a>
           </div>
         </div>
@@ -114,7 +114,7 @@ const App = () => {
             Get in touch
             <span className="absolute top-0 -left-full w-full h-full bg-gradient-to-r from-transparent via-white/15 to-transparent transition-all duration-500 group-hover:left-full"></span>
           </a>
-          <a href="https://github.com/amrradi144" target="_blank" className="text-[0.65rem] tracking-[2px] uppercase px-6 py-2.5 border border-border text-muted font-mono transition-all hover:border-gold2 hover:text-gold hover:-translate-y-0.5">GitHub ↗</a>
+          <a href="https://github.com/amrmohamedradi" target="_blank" className="text-[0.65rem] tracking-[2px] uppercase px-6 py-2.5 border border-border text-muted font-mono transition-all hover:border-gold2 hover:text-gold hover:-translate-y-0.5">GitHub ↗</a>
           <a href="https://linkedin.com/in/amr-mohamed-abdul-radi" target="_blank" className="text-[0.65rem] tracking-[2px] uppercase px-6 py-2.5 border border-border text-muted font-mono transition-all hover:border-gold2 hover:text-gold hover:-translate-y-0.5">LinkedIn ↗</a>
         </div>
       </section>
@@ -182,12 +182,12 @@ const App = () => {
                   <span key={t} className="text-[0.55rem] tracking-tighter px-2 py-[2px] border border-border text-muted hover:border-gold2 hover:text-gold transition-all">{t}</span>
                 ))}
               </div>
-              <a href="https://github.com/amrradi144/NovaCRM" target="_blank" className="text-[0.6rem] tracking-[2px] text-gold uppercase hover:translate-x-1 transition-transform inline-block">View on GitHub →</a>
+              <a href="https://github.com/amrmohamedradi/NovaCRM" target="_blank" className="text-[0.6rem] tracking-[2px] text-gold uppercase hover:translate-x-1 transition-transform inline-block">View on GitHub →</a>
             </div>
           </div>
         </div>
 
-        <a href="https://github.com/amrradi144/Coursera" target="_blank" className="grid grid-cols-[1fr_auto] md:grid-cols-[auto_1fr_auto] items-center gap-8 border border-border p-8 md:px-10 mb-[2px] hover:border-gold2 hover:translate-x-1 transition-all group reveal">
+        <a href="https://github.com/amrmohamedradi/Coursera" target="_blank" className="grid grid-cols-[1fr_auto] md:grid-cols-[auto_1fr_auto] items-center gap-8 border border-border p-8 md:px-10 mb-[2px] hover:border-gold2 hover:translate-x-1 transition-all group reveal">
           <div className="font-disp text-[3.5rem] text-border leading-none transition-colors group-hover:text-gold2 hidden md:block">02</div>
           <div>
             <h3 className="font-disp text-[1.6rem] tracking-tight mb-1">BYWAY API</h3>
@@ -347,7 +347,7 @@ const App = () => {
           {[
             { l: 'Email', v: 'amrmohammedradi@gmail.com', h: 'mailto:amrmohammedradi@gmail.com' },
             { l: 'Phone', v: '+20 109 842 3855', h: 'tel:+201098423855' },
-            { l: 'GitHub', v: 'github.com/amrradi144', h: 'https://github.com/amrradi144' },
+            { l: 'GitHub', v: 'github.com/amrmohamedradi', h: 'https://github.com/amrmohamedradi' },
             { l: 'LinkedIn', v: 'linkedin.com/in/amr-mohamed-abdul-radi', h: 'https://linkedin.com/in/amr-mohamed-abdul-radi' }
           ].map(c => (
             <a key={c.l} href={c.h} target={c.h.startsWith('http') ? '_blank' : ''} className="p-8 border border-border flex flex-col gap-4 hover:bg-s1 hover:border-gold2 hover:-translate-y-0.5 transition-all reveal">
